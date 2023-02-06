@@ -1,0 +1,60 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: var(--color-black);
+    
+    padding: 1rem 2rem;
+} 
+
+.app__navbar-logo {
+    display: felx;
+    /* to make the div of image appear on the start of x axis */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-logo img {
+    /* to make the image be of required size you only change width*/
+    width: 150px;
+}
+
+.app__navbar-links{
+    /* so that the  menu takes most of the space */
+    flex:1;
+    display: flex;
+    /* this is where the entire thing became horizontal */
+    justify-content: center;
+    align-items: center;
+     
+    list-style: none;
+   
+}
+
+.app__navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links:hover{
+    color: var(--color-grey);
+}
+
+.app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__navbar-login a{
+    margin : 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+} 
+.app__navbar-login a:hover {
+    border-bottom: 1px solid var(--color-golden);
+}
+
+  
+
