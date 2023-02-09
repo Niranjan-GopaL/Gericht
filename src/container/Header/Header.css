@@ -1,0 +1,21 @@
+.app__header{
+    background-color:  var(--color-black);
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden   );
+
+    /* But the letters seemed too conjested so  */
+    letter-spacing: 0.04em;
+    /* amke all to uppercase */
+    text-transform: uppercase;
+    line-height: 117px;
+
+    /* Now for the big part make everything BIG */
+    font-size: 90px;
+}
+
+.app__header-img{
+    width: 80%;
+}
