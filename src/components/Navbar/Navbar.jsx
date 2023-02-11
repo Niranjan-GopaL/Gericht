@@ -6,6 +6,7 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 // Throughout the projecet CSS BEM model is followed
+// the dash and underscore used in BEM needs to be understood properly
 
 const Navbar = () =>  {
   const [toggleMenu, setToggleMenu] = useState(false);
