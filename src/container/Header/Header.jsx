@@ -1,7 +1,10 @@
 import React from 'react';
-import SubHeading from '../../components/SubHeading/SubHeading';
 
+
+// Look at the figma file and understand what all you need to import
+import SubHeading from '../../components/SubHeading/SubHeading';
 import {images} from '../../constants';
+
 import './Header.css';
 
 const Header = () => (
