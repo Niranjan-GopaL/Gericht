@@ -5,7 +5,9 @@ import {MdOutlineRestaurantMenu} from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
 
-// Throughout the projecet CSS BEM model is followed
+//In case you have any doubt on how each div is palced
+//REFER TO THE FIGMA FILE and not necessarily the vid
+// Throughout the projecet CSS BEM model is followed , https://sparkbox.com/foundry/bem_by_example EASY
 // the dash and underscore used in BEM needs to be understood properly
 
 const Navbar = () =>  {
